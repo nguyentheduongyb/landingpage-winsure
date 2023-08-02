@@ -234,6 +234,13 @@ export default function Home() {
           <Comments />
           <Footer />
           <Action />
+          {/* Phone */}
+          <Link href="tel:0367023785">
+            <div className="fixed bottom-[400px] right-0  h-20 w-20 bg-center bg-cover bg-no-repeat " style={{ backgroundImage: 'url("phone-icon-20230603032240-0outw.gif")' }}>
+
+            </div>
+          </Link>
+
         </div>
       </main >
     </div >

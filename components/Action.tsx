@@ -10,9 +10,12 @@ const Action = () => {
                                 <h6 className="uppercase font-bold text-[#FBFB03] text-lg">hết đau nhức xương khớp sau 10 ngày</h6>
                         </div>
                         <div className="w-full flex items-center mt-2">
-                                <Link href="tel:0367023785">
-                                        <img className="w-1/2 cursor-pointer" src="/hotline.png" alt="" />
-                                </Link>
+                                <div className="w-1/2">
+                                        <Link href="tel:0367023785">
+                                                <img className="w-full cursor-pointer" src="/hotline.png" alt="" />
+                                        </Link>
+                                </div>
+
                                 <div className="w-1/2">
                                         <div className="cursor-pointer p-2 rounded-[18px] uppercase font-bold text-2xl bg-[#FF1616] flex justify-center text-white">nhận ưu đãi</div>
                                 </div>
